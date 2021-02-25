@@ -3,7 +3,7 @@ body {
 	margin: 0;	
 	background: black;
 	color: white;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Pacifico', monospace;
 	font-weight: 200;
 }
 
@@ -22,8 +22,8 @@ h1, h2 {
 }
 
 #main {
-	background: green;
-	margin: 2em;
+	background: blue;
+	margin: 5em;
 	padding: 2em;
 }
 
