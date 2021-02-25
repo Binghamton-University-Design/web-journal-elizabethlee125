@@ -1,4 +1,4 @@
-/* G R I D */
+/* G /* G R I D */
 
 .grid {
   display: grid;
@@ -13,11 +13,11 @@
 /* H E I G H T */
 
 .height-2 {
-	grid-row: span 2;
+  grid-row: span 2;
 }
 
 .height-3 {
-	grid-row: span 3;
+  grid-row: span 3;
 }
 
 /* M O B I L E */
@@ -127,4 +127,3 @@
   }
 
 }
-
