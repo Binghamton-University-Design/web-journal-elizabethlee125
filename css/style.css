@@ -1,9 +1,9 @@
 
 body {
 	margin: 0;	
-	background: gray;
-	color: white;
-	font-family: 'Lobster', cursive;
+	background: white;
+	color: black;
+	font-family: 'Varela Round', sans-serif;
 	font-weight: 200;
 }
 
@@ -22,9 +22,9 @@ h1, h2 {
 }
 
 #main {
-	background: blue;
-	margin: 5em;
-	padding: 2em;
+	background: white;
+	margin: 1em;
+	padding: 0em;
 }
 
 #sidebar {
@@ -34,6 +34,8 @@ h1, h2 {
 #content {
 	background: red;
 }
+
+#logo 
 
 @media (max-width: 699px) {
 
