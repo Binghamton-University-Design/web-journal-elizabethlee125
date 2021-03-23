@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: Century Gothic
+	font-family: Century Gothic;
 }
 
 
@@ -76,14 +76,15 @@ ul li.active a{
 .mbs{
 	position: absolute;
 	justify-content: center;
+	margin: auto;
+	text-align: center;
 }
 
 p{
 	font-size: 20px;
 	color: white;
 	font-style: bold;
-	justify-content: center;
-	align-self: center;
+	justify-content: center; 
 }
 /*
 h2{
@@ -92,7 +93,31 @@ h2{
 	font-size: 50px;
 	text-align: right;
 */
+/*
+}
+#container {
+  display: grid;
+  width: 200px;
+  height: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space evenly;
+  padding: 10px;
+}
+*/
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
